@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header h1 {
+    color: #E6316F;
+    text-align: center;
+}
