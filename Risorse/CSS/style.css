@@ -30,7 +30,13 @@ section {
 
 section:nth-child(2) {
     height: 40%;
+    /* clear: both; */
+}
+
+section:nth-child(2)::after {
     clear: both;
+    display: table;
+    content: "";
 }
 
 div {
